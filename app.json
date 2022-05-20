@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/welecome/welecome",
+    "pages/post/post"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#b3d4db",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {
+    "l-icon":"/miniprogram_npm/lin-ui/icon/index"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

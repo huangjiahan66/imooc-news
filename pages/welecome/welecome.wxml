@@ -1,0 +1,8 @@
+<view class="container">
+    <!-- <image class="avatar" src="/images/avatar/1.png"></image> -->
+    <l-avatar class="l-avatar" open-data="{{['userAvatarUrl','userNickName']}}" placement="bottom" size="200"/>
+    <text class="motto">Hello, 黄嘉涵 </text>
+    <view class="journey-container" bindtap="onTap">
+        <text class="journey" >开启小程序之旅</text>
+    </view>
+</view>
