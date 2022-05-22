@@ -13,6 +13,13 @@
           "query": "",
           "launchMode": "default",
           "scene": null
+        },
+        {
+          "name": "文章详情",
+          "pathName": "pages/post-detail/post-detail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
         }
       ]
     }
