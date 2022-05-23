@@ -14,7 +14,14 @@
   align-items: center;
   margin: 20rpx 0 0 30rpx;
 }
-
+.autio{
+  width: 102rpx;
+  height: 110rpx;
+  position: absolute;
+  left: 50%;
+  margin-left: -51rpx;
+  top: 185rpx;
+}
 .avatar{
   width: 64rpx;
   height: 64rpx;
