@@ -9,7 +9,7 @@
       "list": [
         {
           "name": "",
-          "pathName": "pages/post/post",
+          "pathName": "pages/posts/posts",
           "query": "",
           "launchMode": "default",
           "scene": null

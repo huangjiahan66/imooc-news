@@ -1,10 +1,14 @@
 {
   "pages": [
     "pages/welecome/welecome",
-    "pages/post/post",
-    "pages/post-detail/post-detail"
+    "pages/posts/posts",
+    "pages/post-detail/post-detail",
+    "pages/movies/movies"
   ],
-  "requiredBackgroundModes": ["audio", "location"],
+  "requiredBackgroundModes": [
+    "audio",
+    "location"
+  ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#c22a1e",
@@ -12,7 +16,25 @@
     "navigationBarTextStyle": "black"
   },
   "usingComponents": {
-    "l-icon":"/miniprogram_npm/lin-ui/icon/index"
+    "l-icon": "/miniprogram_npm/lin-ui/icon/index"
+  },
+  "tabBar": {
+    "selectedColor": "#33333",
+    "color": "#99999",
+    "list": [
+      {
+        "text": "阅读",
+        "pagePath": "pages/posts/posts",
+        "iconPath": "/images/tab/post.png",
+        "selectedIconPath": "/images/tab/post@highlight.png"
+      },
+      {
+        "text": "电源",
+        "pagePath": "pages/movies/movies",
+        "iconPath": "/images/tab/movie.png",
+        "selectedIconPath": "/images/tab/movie@highlight.png"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
