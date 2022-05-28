@@ -1,10 +1,13 @@
-// pages/movies/movies.js
+const app=getApp()
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+      inTheaters:[],
+      commingSoon:[],
+      top250:[]
 
   },
 
@@ -12,7 +15,33 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-
+   wx.request({
+     url: app.baseUrl+'in_theaters',
+     success:(res)=>{
+       console.log(res);
+       this.setData({
+        inTheaters:res.data.subjects
+       })
+     }
+   })
+   wx.request({
+    url: app.baseUrl+'coming_soon',
+    success:(res)=>{
+      console.log(res);
+      this.setData({
+        commingSoon:res.data.subjects
+      })
+    }
+  })
+  wx.request({
+    url: app.baseUrl+'top250',
+    success:(res)=>{
+      console.log(res);
+      this.setData({
+        top250:res.data.subjects
+      })
+    }
+  })
   },
 
   /**

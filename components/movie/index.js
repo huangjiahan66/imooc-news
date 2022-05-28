@@ -1,10 +1,10 @@
-// components/movie-list/movie-list.js
+// components/movie/index.js
 Component({
   /**
    * 组件的属性列表
    */
   properties: {
-
+    movie:Object
   },
 
   /**
